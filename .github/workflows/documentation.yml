@@ -1,0 +1,36 @@
+name: Generate Documentation
+
+# Déclencheur : Un push sur la branche principale
+on:
+  push:
+    branches:
+      - main
+      - master
+
+# Permissions nécessaires pour écrire sur la branche gh-pages
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Récupérer le code source
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Installer Doxygen et Graphviz (pour les diagrammes)
+      - name: Install Doxygen and Graphviz
+        run: sudo apt-get update && sudo apt-get install -y doxygen graphviz
+
+      # 3. Générer la documentation
+      - name: Run Doxygen
+        run: doxygen Doxyfile
+
+      # 4. Déployer sur la branche gh-pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/html  # Doit correspondre à OUTPUT_DIRECTORY + HTML_OUTPUT du Doxyfile
+          force_orphan: true        # Crée une branche propre sans historique inutile
