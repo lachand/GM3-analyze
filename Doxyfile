@@ -1,0 +1,38 @@
+# --- PROJET ---
+PROJECT_NAME           = "GazModem Scanner"
+PROJECT_NUMBER         = "4.0"
+PROJECT_BRIEF          = "Outil d'analyse réseau et reverse-engineering pour protocoles PLUM/GazModem"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = English
+
+# --- COMPORTEMENT ---
+# Indispensable pour que Doxygen comprenne bien le style Javadoc/Python utilisé
+OPTIMIZE_OUTPUT_JAVA   = YES
+# Extrait tout, même ce qui n'est pas documenté (pour avoir une vue d'ensemble)
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+# --- ENTRÉES ---
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.py
+
+# --- DIAGRAMMES (Nécessite Graphviz sur le serveur de build) ---
+HAVE_DOT               = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+UML_LOOK               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# --- HTML (Pour Github Pages) ---
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+# Désactiver LaTeX pour gagner du temps de build
+GENERATE_LATEX         = NO
+
+# --- SOURCE ---
+# Permet de voir le code source en cliquant sur les fonctions
+SOURCE_BROWSER         = YES
