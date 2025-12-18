@@ -1,0 +1,76 @@
+{
+  "project_metadata": {
+    "name": "GazModem Scanner",
+    "version": "0.4",
+    "last_updated": "2025-12-18",
+    "language": "Python 3.x",
+    "ui_framework": "Tkinter",
+    "repository_status": "Active Development"
+  },
+  "objectives": {
+    "primary": "Reverse-engineer PLUM/GazModem industrial heating protocol over TCP/RS485.",
+    "secondary": "Create a mapping of parameters (Index -> Name/Value) for home automation integration.",
+    "long_term": "Enable control (Write commands) and headless integration (MQTT/Home Assistant)."
+  },
+  "protocol_knowledge": {
+    "transport": "TCP/IP encapsulation of RS485 frames.",
+    "endianness": "Little Endian (<)",
+    "frame_structure": {
+      "start_byte": "0x68",
+      "stop_byte": "0x16",
+      "header_layout": "[START:1] [LEN:2] [DEST:2] [SRC:2] [CMD:1]",
+      "checksum": "CRC-16/XMODEM (Poly: 0x1021, Init: 0x0000)"
+    },
+    "key_commands": {
+      "READ_REQ": "0x02",
+      "READ_RESP": "0x82",
+      "WRITE_REQ": "0x03",
+      "IDENT_REQ": "0x09"
+    },
+    "payload_decoding_rule_0x82": {
+      "sequence": [
+        "Name (String, Null-terminated)",
+        "Unit (String, Null-terminated)",
+        "Info Byte (Type + RW Flag)",
+        "Exponent (Signed Byte)",
+        "Raw Value (Variable Length)"
+      ],
+      "value_formula": "FinalValue = RawValue * (10 ^ Exponent)",
+      "special_handling": "Exponent must be clamped (e.g., if abs(exp) > 6, force 0) to avoid 'billions' overflow bug."
+    },
+    "data_types_map": {
+      "1": "SHORT INT (1B)",
+      "2": "INT (2B)",
+      "3": "LONG INT (4B)",
+      "4": "BYTE (1B)",
+      "5": "WORD (2B)",
+      "6": "DWORD (4B)",
+      "7": "SHORT REAL (Float 4B)",
+      "10": "BOOLEAN (1B)",
+      "12": "STRING"
+    }
+  },
+  "implementation_details": {
+    "architecture": "Producer-Consumer (UI Thread + Worker Thread via Queues).",
+    "discovery_method": "Phase 1: Passive Sniffing (30s). Phase 2: Active Scanning.",
+    "optimization": "Smart Skip: If 100 consecutive indexes are empty, skip to next device.",
+    "addressing_quirk": "Module 32 (Extension) only responds to Source 1 (Boiler) or 100 (Thermostat). Source 0 (PC) often ignored by modules.",
+    "current_config": {
+      "default_ip": "192.168.1.38",
+      "default_port": 8899,
+      "my_sa": 0
+    }
+  },
+  "roadmap_status": {
+    "phase_1_foundation": "COMPLETED (Sniffer, Scanner, GUI, CSV Export, Docs).",
+    "phase_2_mapping": "WORK IN PROGRESS (Circuit ID, Named Circuits, Toplogy Tree).",
+    "phase_3_interaction": "PENDING (Write Command, Safe RW checks).",
+    "phase_4_headless": "PENDING (CLI, MQTT Gateway, HA Auto-discovery)."
+  },
+  "documentation_files": {
+    "developer_guide": "DEVELOPER.md",
+    "roadmap": "ROADMAP.md",
+    "readme": "README.md",
+    "doxygen_config": "Doxyfile"
+  }
+}
