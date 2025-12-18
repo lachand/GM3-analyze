@@ -3,7 +3,7 @@
 **An reverse-engineering tool for PLUM / GazModem industrial heating networks.**
 
 ## Documentation
-Documentation available at :
+Documentation available at : [https://valentin.lachand.net/GM3-analyze/namespacegazmodem__scanner.html](https://valentin.lachand.net/GM3-analyze/namespacegazmodem__scanner.html)
 
 ## Overview
 
