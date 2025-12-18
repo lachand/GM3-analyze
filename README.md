@@ -2,6 +2,9 @@
 
 **An reverse-engineering tool for PLUM / GazModem industrial heating networks.**
 
+## Documentation
+Documentation available at :
+
 ## Overview
 
 GazModem Scanner Pro is a graphical utility designed to analyze RS485-over-Ethernet networks used by **EcoMax, EcoNet, and EcoSter** heating controllers (PLUM protocol).
