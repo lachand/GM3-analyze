@@ -6,7 +6,6 @@ import socket
 import time
 from typing import Any, Dict, Optional
 
-# Configuration Logger
 logger = logging.getLogger("PlumDevice")
 logger.addHandler(logging.NullHandler())
 
@@ -28,16 +27,14 @@ class PlumDevice:
         try:
             with open(self.map_file, 'r') as f:
                 self.params_map = json.load(f)
-            logger.info(f"Mapping chargé: {len(self.params_map)} paramètres.")
+            logger.info(f"Mapping loaded: {len(self.params_map)} parameters.")
         except FileNotFoundError:
-            logger.error(f"Fichier {self.map_file} introuvable.")
+            logger.error(f"Unable to find {self.map_file}.")
             raise
 
     async def close(self):
-        """Rien à faire en mode synchrone, le socket est fermé à chaque appel."""
         pass
 
-    # --- MÉTHODES UTILITAIRES ---
     def _crc16(self, data: bytes) -> int:
         crc = 0x0000
         poly = 0x1021
@@ -87,37 +84,30 @@ class PlumDevice:
             return val
         except: return None
 
-    # --- MÉTHODES PUBLIQUES ASYNCHRONES (WRAPPER) ---
-
     async def get_value(self, slug: str, retries: int = 5) -> Any:
-        """Lecture avec boucle de tentatives robuste."""
         param = self.params_map.get(slug)
         if not param: return None
         pid = param['id']
 
-        # logger.info(f"Lecture '{slug}' (ID {pid})...")
+        # logger.info(f"Reading '{slug}' (ID {pid})...")
 
         for attempt in range(1, retries + 1):
-            # On lance le moteur synchrone dans un thread pour ne pas bloquer HA
             val = await asyncio.to_thread(self._sync_get_value, pid, param)
 
             if val is not None:
-                # Succès !
                 if attempt > 1:
-                    logger.info(f"✅ Récupéré '{slug}' au bout de {attempt} essais.")
+                    logger.info(f"Finded'{slug}' with {attempt} tries.")
                 return val
 
-            # Gestion de l'échec
             if attempt < retries:
                 wait_time = 0.1 * attempt # Backoff progressif : 0.5s, 1.0s, 1.5s...
-                logger.warning(f"⚠️ '{slug}' Timeout (Essai {attempt}/{retries}). Retry dans {wait_time}s...")
+                logger.warning(f"⚠️ '{slug}' Timeout (try {attempt}/{retries}). Retry in {wait_time}s...")
                 await asyncio.sleep(wait_time)
 
-        logger.error(f"❌ ABANDON '{slug}' après {retries} tentatives.")
+        logger.error(f"ABANDON '{slug}' after {retries} tries.")
         return None
 
     async def set_value(self, slug: str, value: Any, password: str = "", user: str = "USER-000") -> bool:
-        """Écriture avec tentatives multiples."""
         param = self.params_map.get(slug)
         if not param: return False
         pid = param['id']
@@ -128,34 +118,27 @@ class PlumDevice:
         pass_bytes = (password.encode('utf-8') + b'\x00') if password else b'\x00'
         full_payload = user_bytes + pass_bytes + b'\x01' + struct.pack("<H", pid) + encoded
 
-        # 3 Essais pour l'écriture
         for attempt in range(1, 4):
             success = await asyncio.to_thread(self._sync_set_value, pid, full_payload)
             if success:
-                logger.info(f"✅ Écriture '{slug}' OK.")
+                logger.info(f"Writing '{slug}' OK.")
                 return True
 
-            logger.warning(f"⚠️ Echec écriture '{slug}' (Essai {attempt}/3). Retry...")
+            logger.warning(f"Error writing '{slug}' (Try {attempt}/3). Retry...")
             await asyncio.sleep(1.0)
 
         return False
 
-    # --- MOTEUR SYNCHRONE (WORKER) ---
-
     def _sync_get_value(self, pid: int, param: dict) -> Any:
-        """Exécuté dans un thread : Logique bloquante pure."""
-        # On change de session ID à chaque tentative physique
         self.session_id = (self.session_id + 1) % 65000
 
         payload = struct.pack("<HB BH", self.session_id, 1, 1, pid)
         frame = self._build_frame(CMD_READ_VAL, payload)
 
-        # Transaction réseau
         resp = self._socket_transaction(frame, CMD_READ_VAL)
 
         if resp and len(resp) > 2:
             rec_sess = struct.unpack("<H", resp[0:2])[0]
-            # On valide la session (0 est souvent utilisé par la chaudière comme wildcard)
             if rec_sess == self.session_id or rec_sess == 0:
                 return self._decode(resp[7:], param)
         return None
@@ -174,14 +157,9 @@ class PlumDevice:
         return b'\x68' + body + struct.pack(">H", chk) + b'\x16'
 
     def _socket_transaction(self, frame: bytes, expected_cmd: int) -> Optional[bytes]:
-        """
-        Ouvre/Parle/Ecoute/Ferme.
-        Timeout strict de 2.0s.
-        """
         sock = None
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            # Timeout vital : C'est lui qui empêche le blocage infini
             sock.settimeout(2.0)
 
             sock.connect((self.ip, self.port))
@@ -190,32 +168,25 @@ class PlumDevice:
             buffer = bytearray()
             start_time = time.time()
 
-            # On lit par paquets tant qu'on a du temps
             while time.time() - start_time < 2.0:
                 try:
                     chunk = sock.recv(2048)
                     if not chunk: break
                     buffer.extend(chunk)
 
-                    # Parsing rapide dans le flux
                     if b'\x68' in buffer:
                         idx = buffer.find(b'\x68')
-                        # Check header dispo
                         if idx != -1 and len(buffer) > idx + 8:
                             cmd_rec = buffer[idx+7]
-                            # Check si c'est la réponse attendue (CMD | 0x80)
                             if cmd_rec == (expected_cmd | 0x80):
-                                # On retourne le payload brut (sans header, sans CRC/End)
-                                # idx + 8 (Header) ... Fin - 3 (CRC + 0x16)
                                 return buffer[idx+8 : -3]
 
                 except socket.timeout:
-                    break # On arrête la boucle si recv timeout
+                    break
 
             return None
 
         except Exception:
-            # En cas d'erreur de socket (connexion refusée, route, etc)
             return None
         finally:
             if sock:
