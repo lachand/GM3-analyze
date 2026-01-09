@@ -88,6 +88,7 @@ def run_sniffer():
                             cmd = frame[7]
 
                             if cmd in [CMD_WRITE_FORCE, CMD_WRITE_APP, CMD_WRITE_OLD]:
+                                print("\n\n" + "🚨"*20)
                                 log(f" Writing frame detected (CMD {hex(cmd)})")
 
                                 payload = frame[8:-3]
@@ -104,8 +105,8 @@ def run_sniffer():
                                 if len(strs) >= 2: password = strs[1]
 
                                 print("-" * 40)
-                                print(f" USER  : {user}")
-                                print(f" PASSWORD : {password}")
+                                print(f"   👤 USER  : {user}")
+                                print(f"   🔑 PASSWORD : {password}")
                                 print("-" * 40)
 
             except socket.timeout:

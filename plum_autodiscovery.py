@@ -124,6 +124,10 @@ class AutoDiscovery:
             keep = False
             if any(k in slug for k in ALWAYS_KEEP): keep = True
             elif any(k in slug for k in DHW_KEYWORDS): keep = True
+            elif "buffer" in slug: keep = True
+            elif "mix" in slug: keep = True
+            elif "weather" in slug: keep = True
+            elif "heatsource" in slug: keep = True
             elif "thermostat" in slug and "temp" in slug: keep = True
             match_circuit = re.search(r'circuit(\d+)', slug)
             if match_circuit: keep = True
