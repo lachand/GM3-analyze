@@ -9,7 +9,7 @@ IP = "192.168.1.38"
 PORT = 8899
 OUTPUT_FILE = "device_map.json"
 
-# Filtres
+# Filters
 ALWAYS_KEEP = ["uid", "wifi", "ip", "boiler", "pression", "lambda", "fan", "power", "work", "fuel", "feeder"]
 DHW_KEYWORDS = ["dhw", "ecs", "cwu", "sanitary", "hot_water", "tank", "circulation"]
 
@@ -38,7 +38,7 @@ class AutoDiscovery:
         return text.strip('_')
 
     def scan_definitions(self):
-        print(f"1. SCAN DES DÉFINITIONS...")
+        print(f"1. SCANNING PARAMETERS...")
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(2.0)
         try:
@@ -114,10 +114,10 @@ class AutoDiscovery:
                     print(".", end="", flush=True)
         finally:
             s.close()
-            print(f"\n   -> {len(self.raw_defs)} définitions trouvées.")
+            print(f"\n   -> {len(self.raw_defs)} parameters.")
 
     def generate_json(self):
-        print(f"2. GÉNÉRATION DU JSON...")
+        print(f"2. GENERATING JSON...")
         final_map = {}
         for p in self.raw_defs:
             slug = p["slug"]
@@ -142,7 +142,7 @@ class AutoDiscovery:
                 }
         with open(OUTPUT_FILE, 'w') as f:
             json.dump(final_map, f, indent=4)
-        print(f"✅ Fichier '{OUTPUT_FILE}' généré.")
+        print(f"File '{OUTPUT_FILE}' generated.")
 
 if __name__ == "__main__":
     auto = AutoDiscovery(IP, PORT)
