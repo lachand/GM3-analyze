@@ -1,0 +1,9 @@
+<map id="plum_autodiscovery.AutoDiscovery.scan_definitions" name="plum_autodiscovery.AutoDiscovery.scan_definitions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,69,288,109"/>
+<area shape="rect" id="Node000002" href="$classplum__autodiscovery_1_1AutoDiscovery.html#a54be59c7620f91eb19945d9f8a164619" title=" " alt="" coords="336,5,589,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,67,350,45,351,51,247,72"/>
+<area shape="rect" id="Node000003" href="$classplum__device_1_1PlumDevice.html#a99b19cdace7dc821467039a60a507949" title=" " alt="" coords="367,69,558,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="288,87,353,87,353,92,288,92"/>
+<area shape="rect" id="Node000004" href="$classplum__autodiscovery_1_1AutoDiscovery.html#a800ee163fe9755495ce4eec33ea7ff03" title=" " alt="" coords="336,133,589,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,107,351,128,350,133,246,112"/>
+</map>

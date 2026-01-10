@@ -1,0 +1,15 @@
+<map id="plum_device.PlumDevice.set_value" name="plum_device.PlumDevice.set_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,216,77"/>
+<area shape="rect" id="Node000002" href="$classplum__device_1_1PlumDevice.html#a243a3dfb94f48e0e4875c264d69dc0cc" title=" " alt="" coords="264,5,455,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,41,250,37,250,42,217,46"/>
+<area shape="rect" id="Node000003" href="$classplum__device_1_1PlumDevice.html#a0ce8bf0f525271841b5b443414403434" title=" " alt="" coords="264,69,455,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,68,250,73,250,78,216,74"/>
+<area shape="rect" id="Node000004" href="$classplum__device_1_1PlumDevice.html#a6f3b1605029e85f4d5cea4f50f30def2" title=" " alt="" coords="503,37,693,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="455,74,489,69,490,75,455,79"/>
+<area shape="rect" id="Node000007" href="$classplum__device_1_1PlumDevice.html#aeef3e5d17c062b9a93e1cbefe5d39e71" title=" " alt="" coords="503,101,693,141"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="455,99,490,104,489,109,455,105"/>
+<area shape="rect" id="Node000005" href="$classplum__autodiscovery_1_1AutoDiscovery.html#a54be59c7620f91eb19945d9f8a164619" title=" " alt="" coords="741,5,995,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="693,43,727,39,728,45,694,49"/>
+<area shape="rect" id="Node000006" href="$classplum__device_1_1PlumDevice.html#a99b19cdace7dc821467039a60a507949" title=" " alt="" coords="773,69,963,109"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="694,66,759,74,759,79,693,71"/>
+</map>
