@@ -14,12 +14,19 @@ ALWAYS_KEEP = ["uid", "wifi", "ip", "boiler", "pression", "lambda", "fan", "powe
 DHW_KEYWORDS = ["dhw", "ecs", "cwu", "sanitary", "hot_water", "tank", "circulation"]
 
 class AutoDiscovery:
+    """
+    @class AutoDiscovery
+    @brief Tool for automatically discovering available parameters on the boiler.
+    @details Performs a scan (intelligent Brute-force) of parameter indices
+    to dynamically build the `device_map.json` file.
+    """
     def __init__(self, ip: str, port: int):
         self.ip = ip
         self.port = port
         self.raw_defs = []
 
     def _crc16(self, data: bytes) -> int:
+        """ @brief Local CRC calculation. """
         crc = 0x0000
         poly = 0x1021
         for b in data:
@@ -31,6 +38,11 @@ class AutoDiscovery:
         return crc
 
     def _slugify(self, text: str) -> str:
+        """
+        @brief Normalizes parameter names into valid JSON keys.
+        @param text Raw name (e.g., "T. Boiler [C]").
+        @return str Slug (e.g., "t_boiler_c").
+        """
         text = text.lower()
         text = re.sub(r'\[.*?\]', '', text)
         text = re.sub(r'\s+', '_', text)
@@ -38,6 +50,11 @@ class AutoDiscovery:
         return text.strip('_')
 
     def scan_definitions(self):
+        """
+        @brief Initiates the network scan for parameters.
+        @details Sends `CMD_SCAN` commands in batches. Detects empty ranges
+        to skip void indices (optimization). Fills `self.raw_defs`.
+        """
         print(f"1. SCANNING PARAMETERS...")
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(2.0)
@@ -117,6 +134,10 @@ class AutoDiscovery:
             print(f"\n   -> {len(self.raw_defs)} parameters.")
 
     def generate_json(self):
+        """
+        @brief Generates the final JSON file from raw definitions.
+        @details Filters relevant parameters based on `ALWAYS_KEEP` and `DHW_KEYWORDS`.
+        """
         print(f"2. GENERATING JSON...")
         final_map = {}
         for p in self.raw_defs:
