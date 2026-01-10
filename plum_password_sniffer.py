@@ -3,6 +3,11 @@ import struct
 import time
 import sys
 
+## @package plum_password_sniffer
+#  @brief Packet capture tool to retrieve the installer password.
+#  @details Passively listens (by connecting to the same port) or simulates a panel
+#  to intercept write frames containing the cleartext password.
+
 # Configuration
 IP = "192.168.1.38"
 PORT = 8899
@@ -12,9 +17,15 @@ CMD_WRITE_APP = 0x45
 CMD_WRITE_OLD = 0x44
 
 def log(msg):
+    """ @brief Prints a timestamped message. """
     print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
 
 def extract_strings(payload):
+    """
+    @brief Extracts printable strings from a binary payload.
+    @param payload Raw binary data.
+    @return list[str] List of found strings (min 3 chars).
+    """
     strings = []
     parts = payload.split(b'\x00')
     for p in parts:
@@ -26,6 +37,14 @@ def extract_strings(payload):
     return strings
 
 def run_sniffer():
+    """
+    @brief Main sniffer loop.
+    @details
+    1. Connects to the ecoNET port.
+    2. Sends heartbeats to maintain connection.
+    3. Analyzes every incoming frame.
+    4. If a WRITE command is detected, attempts to extract User/Pass.
+    """
     print("="*60)
     print("PLUM PASSWORD SNIFFER")
     print("="*60)
@@ -88,7 +107,6 @@ def run_sniffer():
                             cmd = frame[7]
 
                             if cmd in [CMD_WRITE_FORCE, CMD_WRITE_APP, CMD_WRITE_OLD]:
-                                print("\n\n" + "🚨"*20)
                                 log(f" Writing frame detected (CMD {hex(cmd)})")
 
                                 payload = frame[8:-3]
@@ -99,14 +117,14 @@ def run_sniffer():
                                 user = "Unknown"
                                 password = "Unknown"
 
-                                # Heuristique simple :
-                                # Souvent : [USER] [PASS] [Reste...]
+                                # Simple heuristic:
+                                # Often: [USER] [PASS] [Rest...]
                                 if len(strs) >= 1: user = strs[0]
                                 if len(strs) >= 2: password = strs[1]
 
                                 print("-" * 40)
-                                print(f"   👤 USER  : {user}")
-                                print(f"   🔑 PASSWORD : {password}")
+                                print(f"   USER  : {user}")
+                                print(f"   PASSWORD : {password}")
                                 print("-" * 40)
 
             except socket.timeout:
