@@ -1,0 +1,4097 @@
+{
+    "uid": {
+        "id": 373,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "UID"
+    },
+    "tempcwu": {
+        "id": 61,
+        "type": "FLOAT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "TempCWU"
+    },
+    "tempbuforup": {
+        "id": 62,
+        "type": "FLOAT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "TempBuforUp"
+    },
+    "tempbufordown": {
+        "id": 63,
+        "type": "FLOAT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "TempBuforDown"
+    },
+    "tempcircuit2": {
+        "id": 66,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempCircuit2"
+    },
+    "tempcircuit3": {
+        "id": 67,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempCircuit3"
+    },
+    "tempwthr": {
+        "id": 68,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempWthr"
+    },
+    "tempsettings": {
+        "id": 69,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempSettings"
+    },
+    "tempcircuit4": {
+        "id": 70,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempCircuit4"
+    },
+    "tempcircuit5": {
+        "id": 71,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempCircuit5"
+    },
+    "tempcircuit6": {
+        "id": 72,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempCircuit6"
+    },
+    "tempcircuit7": {
+        "id": 73,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "TempCircuit7"
+    },
+    "circuit1_romtempset": {
+        "id": 91,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1 romTempSet"
+    },
+    "circuit2_romtempset": {
+        "id": 92,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2 romTempSet"
+    },
+    "circuit3_romtempset": {
+        "id": 93,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3 romTempSet"
+    },
+    "circuit4_romtempset": {
+        "id": 94,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4 romTempSet"
+    },
+    "circuit5_romtempset": {
+        "id": 95,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5 romTempSet"
+    },
+    "circuit6_romtempset": {
+        "id": 96,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6 romTempSet"
+    },
+    "circuit7_romtempset": {
+        "id": 97,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7 romTempSet"
+    },
+    "hdwsettings": {
+        "id": 101,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSETTINGS"
+    },
+    "hdwstate": {
+        "id": 102,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSTATE"
+    },
+    "hdwtsetpoint": {
+        "id": 103,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "HDWTSetPoint"
+    },
+    "hdwtsetpointdownhist": {
+        "id": 104,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "HDWTSetPointDownHist"
+    },
+    "hdwminmalhisteresis": {
+        "id": 105,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "HDWMinmalHisteresis"
+    },
+    "hdwminsettemp": {
+        "id": 107,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWMinSetTemp"
+    },
+    "hdwmaxsettemp": {
+        "id": 108,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWMaxSetTemp"
+    },
+    "hdwtempkeepwarm": {
+        "id": 109,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWTempKeepWarm"
+    },
+    "hdwmaxtemphist": {
+        "id": 112,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWMaxTempHist"
+    },
+    "hdwloadtime": {
+        "id": 113,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWLoadTime"
+    },
+    "hdwstartoneloading": {
+        "id": 115,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWStartOneLoading"
+    },
+    "hdwdbstate": {
+        "id": 116,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWDBState"
+    },
+    "hdwsupplyhist": {
+        "id": 117,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSupplyHist"
+    },
+    "hdwharmonogramsettings": {
+        "id": 118,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWHarmonogramSettings"
+    },
+    "hdwusermode": {
+        "id": 119,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWusermode"
+    },
+    "hdwsundayam": {
+        "id": 120,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSundayAM"
+    },
+    "hdwsundaypm": {
+        "id": 121,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSundayPM"
+    },
+    "hdwmondayam": {
+        "id": 122,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWMondayAM"
+    },
+    "hdwmondaypm": {
+        "id": 123,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWMondayPM"
+    },
+    "hdwtuesdayam": {
+        "id": 124,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWTuesdayAM"
+    },
+    "hdwtuesdaypm": {
+        "id": 125,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWTuesdayPM"
+    },
+    "hdwwednesdayam": {
+        "id": 126,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWWednesdayAM"
+    },
+    "hdwwednesdaypm": {
+        "id": 127,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWWednesdayPM"
+    },
+    "hdwthursdayam": {
+        "id": 128,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWThursdayAM"
+    },
+    "hdwthursdaypm": {
+        "id": 129,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWThursdayPM"
+    },
+    "hdwfridayam": {
+        "id": 130,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWFridayAM"
+    },
+    "hdwfridaypm": {
+        "id": 131,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWFridayPM"
+    },
+    "hdwsaturdayam": {
+        "id": 132,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSaturdayAM"
+    },
+    "hdwsaturdaypm": {
+        "id": 133,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWSaturdayPM"
+    },
+    "hdwsetpointcalculate": {
+        "id": 134,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWsetpointcalculate"
+    },
+    "hdwstartlegion": {
+        "id": 135,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWStartLegion"
+    },
+    "hdwlegionsetpoint": {
+        "id": 136,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWLegionSetPoint"
+    },
+    "hdwlegionday": {
+        "id": 137,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWLegionDay"
+    },
+    "hdwlegionhour": {
+        "id": 138,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWLegionHour"
+    },
+    "hdwheatsource": {
+        "id": 139,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HDWHeatSource"
+    },
+    "antifreezetemp": {
+        "id": 153,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AntifreezeTemp"
+    },
+    "workstate2": {
+        "id": 162,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "workState2"
+    },
+    "workstate3": {
+        "id": 163,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "workState3"
+    },
+    "workstate4": {
+        "id": 164,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "workState4"
+    },
+    "dhw_mode": {
+        "id": 166,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "dhw mode"
+    },
+    "buforsettings": {
+        "id": 181,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSETTINGS"
+    },
+    "buforstate": {
+        "id": 182,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSTATE"
+    },
+    "buforsetpoint": {
+        "id": 183,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforsetPoint"
+    },
+    "buforsettempdownhist": {
+        "id": 188,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSetTempDownHist"
+    },
+    "bufortempstarthydraulic": {
+        "id": 190,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforTempStartHydraulic"
+    },
+    "bufortempstarthydraulichist": {
+        "id": 191,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforTempStartHydraulicHist"
+    },
+    "buformaxtemp": {
+        "id": 192,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforMaxTemp"
+    },
+    "buformaxtemphist": {
+        "id": 193,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforMaxTempHist"
+    },
+    "buforlongloadtime": {
+        "id": 194,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforLongLoadTime"
+    },
+    "buforcalcsettemp": {
+        "id": 195,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforCalcSetTemp"
+    },
+    "buforschedulereduction": {
+        "id": 196,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforScheduleReduction"
+    },
+    "buforharmonogramset": {
+        "id": 197,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforHarmonogramSet"
+    },
+    "buforsundayam": {
+        "id": 199,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSundayAM"
+    },
+    "buforsundaypm": {
+        "id": 200,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSundayPM"
+    },
+    "buformondayam": {
+        "id": 201,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforMondayAM"
+    },
+    "buformondaypm": {
+        "id": 202,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforMondayPM"
+    },
+    "bufortuesdayam": {
+        "id": 203,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforTuesdayAM"
+    },
+    "bufortuesdaypm": {
+        "id": 204,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforTuesdayPM"
+    },
+    "buforwednesdayam": {
+        "id": 205,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforWednesdayAM"
+    },
+    "buforwednesdaypm": {
+        "id": 206,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforWednesdayPM"
+    },
+    "buforthursdayam": {
+        "id": 207,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforThursdayAM"
+    },
+    "buforthursdaypm": {
+        "id": 208,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforThursdayPM"
+    },
+    "buforfridayam": {
+        "id": 209,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforFridayAM"
+    },
+    "buforfridaypm": {
+        "id": 210,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforFridayPM"
+    },
+    "buforsaturdayam": {
+        "id": 211,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSaturdayAM"
+    },
+    "buforsaturdaypm": {
+        "id": 212,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BuforSaturdayPM"
+    },
+    "buforcoolingtemp": {
+        "id": 213,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Buforcoolingtemp"
+    },
+    "buforcoolinghist": {
+        "id": 214,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Buforcoolinghist"
+    },
+    "bufortempstarthydrauliccooling": {
+        "id": 215,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforTempStartHydraulicCooling"
+    },
+    "bufortempstarthydrauliccoolinghist": {
+        "id": 216,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforTempStartHydraulicCoolingHist"
+    },
+    "buforminsetpoint": {
+        "id": 217,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforminSetPoint"
+    },
+    "buformaxsetpoint": {
+        "id": 218,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuformaxSetPoint"
+    },
+    "buforminsetpointcooling": {
+        "id": 219,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforminSetPointCooling"
+    },
+    "buformaxsetpointcooling": {
+        "id": 220,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuformaxSetPointCooling"
+    },
+    "bufortempkeepingwarm": {
+        "id": 221,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "BuforTempKeepingWarm"
+    },
+    "circuit1settings": {
+        "id": 231,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1Settings"
+    },
+    "circuit1state": {
+        "id": 232,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1State"
+    },
+    "circuit1pumpdebug": {
+        "id": 235,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1PumpDebug"
+    },
+    "circuit1workstate": {
+        "id": 236,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1WorkState"
+    },
+    "circuit1calctemp": {
+        "id": 237,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1CalcTemp"
+    },
+    "circuit1comforttemp": {
+        "id": 238,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1ComfortTemp"
+    },
+    "circuit1ecotemp": {
+        "id": 239,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1EcoTemp"
+    },
+    "circuit1downhist": {
+        "id": 240,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1DownHist"
+    },
+    "circuit1minsettemprad": {
+        "id": 241,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MinSetTempRad"
+    },
+    "circuit1maxsettemprad": {
+        "id": 242,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MaxSetTempRad"
+    },
+    "circuit1maxtempheat": {
+        "id": 243,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MaxTempHeat"
+    },
+    "circuit1maxtempheathist": {
+        "id": 244,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MaxTempHeatHist"
+    },
+    "circuit1thermostataddress": {
+        "id": 246,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1ThermostatAddress"
+    },
+    "circuit1sundayam": {
+        "id": 247,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1SundayAM"
+    },
+    "circuit1sundaypm": {
+        "id": 248,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1SundayPM"
+    },
+    "circuit1mondayam": {
+        "id": 249,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MondayAM"
+    },
+    "circuit1mondaypm": {
+        "id": 250,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MondayPM"
+    },
+    "circuit1tuesdayam": {
+        "id": 251,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1TuesdayAM"
+    },
+    "circuit1tuesdaypm": {
+        "id": 252,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1TuesdayPM"
+    },
+    "circuit1wednesdayam": {
+        "id": 253,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1WednesdayAM"
+    },
+    "circuit1wednesdaypm": {
+        "id": 254,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1WednesdayPM"
+    },
+    "circuit1thursdayam": {
+        "id": 255,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1ThursdayAM"
+    },
+    "circuit1thursdaypm": {
+        "id": 256,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1ThursdayPM"
+    },
+    "circuit1fridayam": {
+        "id": 257,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1FridayAM"
+    },
+    "circuit1fridaypm": {
+        "id": 258,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1FridayPM"
+    },
+    "circuit1saturdayam": {
+        "id": 259,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1SaturdayAM"
+    },
+    "circuit1saturdaypm": {
+        "id": 260,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1SaturdayPM "
+    },
+    "circuit1basetemp": {
+        "id": 261,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1BaseTemp"
+    },
+    "circuit1tempreduction": {
+        "id": 262,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1TempReduction"
+    },
+    "circuit1multiplier": {
+        "id": 263,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1Multiplier"
+    },
+    "circuit1mixerstate": {
+        "id": 264,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MixerState"
+    },
+    "circuit1typesettings": {
+        "id": 269,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1TypeSettings"
+    },
+    "circuit1thermostatsettings": {
+        "id": 270,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1ThermostatSettings"
+    },
+    "circuit1mintempfloor": {
+        "id": 271,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MinTempFloor"
+    },
+    "circuit1maxtempfloor": {
+        "id": 272,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MaxTempFloor"
+    },
+    "circuit1curveradiator": {
+        "id": 273,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1CurveRadiator"
+    },
+    "circuit1curvefloor": {
+        "id": 274,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1CurveFloor"
+    },
+    "circuit1curveshift": {
+        "id": 275,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1Curveshift"
+    },
+    "circuit1longloading": {
+        "id": 276,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1longloading"
+    },
+    "circuit1thermostat": {
+        "id": 277,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1thermostat"
+    },
+    "circuit1name": {
+        "id": 278,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1name"
+    },
+    "circuit1active": {
+        "id": 279,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1active"
+    },
+    "circuit1usercor": {
+        "id": 280,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1userCor"
+    },
+    "circuit2settings": {
+        "id": 281,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2Settings"
+    },
+    "circuit2state": {
+        "id": 282,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2State"
+    },
+    "circuit2inputdigitallogic": {
+        "id": 283,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2InputDigitalLogic"
+    },
+    "circuit2pumpdebug": {
+        "id": 285,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2PumpDebug"
+    },
+    "circuit2workstate": {
+        "id": 286,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2WorkState"
+    },
+    "circuit2calctemp": {
+        "id": 287,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2CalcTemp"
+    },
+    "circuit2comforttemp": {
+        "id": 288,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2ComfortTemp"
+    },
+    "circuit2ecotemp": {
+        "id": 289,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2EcoTemp"
+    },
+    "circuit2downhist": {
+        "id": 290,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2DownHist"
+    },
+    "circuit2minsettemprad": {
+        "id": 291,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MinSetTempRad"
+    },
+    "circuit2maxsettemprad": {
+        "id": 292,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MaxSetTempRad"
+    },
+    "circuit2maxtempheat": {
+        "id": 293,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MaxTempHeat"
+    },
+    "circuit2maxtempheathist": {
+        "id": 294,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MaxTempHeatHist"
+    },
+    "circuit2thermostataddress": {
+        "id": 296,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2ThermostatAddress"
+    },
+    "circuit2sundayam": {
+        "id": 297,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2SundayAM"
+    },
+    "circuit2sundaypm": {
+        "id": 298,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2SundayPM"
+    },
+    "circuit2mondayam": {
+        "id": 299,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MondayAM"
+    },
+    "circuit2mondaypm": {
+        "id": 300,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MondayPM"
+    },
+    "circuit2tuesdayam": {
+        "id": 301,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2TuesdayAM"
+    },
+    "circuit2tuesdaypm": {
+        "id": 302,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2TuesdayPM"
+    },
+    "circuit2wednesdayam": {
+        "id": 303,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2WednesdayAM"
+    },
+    "circuit2wednesdaypm": {
+        "id": 304,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2WednesdayPM"
+    },
+    "circuit2thursdayam": {
+        "id": 305,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2ThursdayAM"
+    },
+    "circuit2thursdaypm": {
+        "id": 306,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2ThursdayPM"
+    },
+    "circuit2fridayam": {
+        "id": 307,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2FridayAM"
+    },
+    "circuit2fridaypm": {
+        "id": 308,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2FridayPM"
+    },
+    "circuit2saturdayam": {
+        "id": 309,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2SaturdayAM"
+    },
+    "circuit2saturdaypm": {
+        "id": 310,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2SaturdayPM"
+    },
+    "circuit2basetemp": {
+        "id": 785,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2BaseTemp"
+    },
+    "circuit2tempreduction": {
+        "id": 312,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2TempReduction"
+    },
+    "circuit2multiplier": {
+        "id": 313,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2Multiplier"
+    },
+    "circuit2mixerstate": {
+        "id": 314,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MixerState"
+    },
+    "mixer2valveposition": {
+        "id": 315,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer2valveposition"
+    },
+    "mixer2valveopeningtime": {
+        "id": 316,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer2valveopeningtime"
+    },
+    "mixer2valvedeadzone": {
+        "id": 317,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer2valvedeadzone"
+    },
+    "mixer2valvesetposition": {
+        "id": 318,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer2valvesetposition"
+    },
+    "circuit2typesettings": {
+        "id": 319,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2TypeSettings"
+    },
+    "circuit2thermostatsettings": {
+        "id": 320,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2ThermostatSettings"
+    },
+    "circuit2minsettempfloor": {
+        "id": 321,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MinSetTempFloor"
+    },
+    "circuit2maxsettempfloor": {
+        "id": 322,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2MaxSetTempFloor"
+    },
+    "circuit2curveradiator": {
+        "id": 323,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2CurveRadiator"
+    },
+    "circuit2curvefloor": {
+        "id": 324,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2CurveFloor"
+    },
+    "circuit2curveshift": {
+        "id": 325,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2Curveshift"
+    },
+    "circuit2longloading": {
+        "id": 326,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2longloading"
+    },
+    "circuit2thermostattemp": {
+        "id": 327,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2thermostatTemp"
+    },
+    "circuit2name": {
+        "id": 328,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2name"
+    },
+    "circuit2active": {
+        "id": 329,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2active"
+    },
+    "circuit2usercor": {
+        "id": 330,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit2userCor"
+    },
+    "circuit3settings": {
+        "id": 331,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3Settings"
+    },
+    "circuit3state": {
+        "id": 332,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3State"
+    },
+    "circuit3inputdigitallogic": {
+        "id": 333,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3InputDigitalLogic"
+    },
+    "circuit3pumpdebug": {
+        "id": 335,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3PumpDebug"
+    },
+    "circuit3workstate": {
+        "id": 336,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3WorkState"
+    },
+    "circuit3calctemp": {
+        "id": 337,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3CalcTemp"
+    },
+    "circuit3comforttemp": {
+        "id": 338,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3ComfortTemp"
+    },
+    "circuit3ecotemp": {
+        "id": 339,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3EcoTemp"
+    },
+    "circuit3downhist": {
+        "id": 340,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3DownHist"
+    },
+    "circuit3minsettemp": {
+        "id": 341,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MinSetTemp"
+    },
+    "circuit3maxsettemp": {
+        "id": 342,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MaxSetTemp"
+    },
+    "circuit3maxtempheat": {
+        "id": 343,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MaxTempHeat"
+    },
+    "circuit3maxtempheathist": {
+        "id": 344,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MaxTempHeatHist"
+    },
+    "circuit3thermostataddress": {
+        "id": 346,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3ThermostatAddress"
+    },
+    "addsorucecriticaltemp": {
+        "id": 356,
+        "type": "WORD",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "AddSoruceCriticalTemp"
+    },
+    "addsorucecriticaltempend": {
+        "id": 357,
+        "type": "WORD",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "AddSoruceCriticalTempEnd"
+    },
+    "addsorucesupporttemp": {
+        "id": 358,
+        "type": "WORD",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "AddSoruceSupportTemp"
+    },
+    "addsorucesupporttempend": {
+        "id": 359,
+        "type": "WORD",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "AddSoruceSupportTempEnd"
+    },
+    "circuit3basetemp": {
+        "id": 835,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3BaseTemp"
+    },
+    "circuit3tempreduction": {
+        "id": 362,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3TempReduction"
+    },
+    "circuit3multiplier": {
+        "id": 363,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3Multiplier"
+    },
+    "circuit3mixerstate": {
+        "id": 364,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MixerState"
+    },
+    "mixer3valveposition": {
+        "id": 365,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer3valveposition"
+    },
+    "mixer3valveopeningtime": {
+        "id": 366,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer3valveopeningtime"
+    },
+    "mixer3valvedeadzone": {
+        "id": 367,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer3valvedeadzone"
+    },
+    "mixer3valvesetposition": {
+        "id": 368,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer3valvesetposition"
+    },
+    "circuit3typesettings": {
+        "id": 369,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3TypeSettings"
+    },
+    "circuit3thermostatsettings": {
+        "id": 370,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3ThermostatSettings"
+    },
+    "circuit3minsettempfloor": {
+        "id": 371,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MinSetTempFloor"
+    },
+    "circuit3maxsettempfloor": {
+        "id": 372,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MaxSetTempFloor"
+    },
+    "status_wifi": {
+        "id": 376,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Status wifi"
+    },
+    "szyfrowanie_wifi": {
+        "id": 378,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Szyfrowanie WiFi"
+    },
+    "haslo_wifi": {
+        "id": 379,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "haslo WiFi"
+    },
+    "sila_sygnalu_wifi": {
+        "id": 380,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Sila sygnalu WiFi"
+    },
+    "adres_ip_wifi": {
+        "id": 381,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Adres IP WiFi"
+    },
+    "maska_ip_wifi": {
+        "id": 382,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Maska IP WiFi"
+    },
+    "brama_ip_wifi": {
+        "id": 383,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Brama IP WiFi"
+    },
+    "adres_ip": {
+        "id": 384,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Adres IP"
+    },
+    "maska_ip": {
+        "id": 385,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Maska IP"
+    },
+    "brama_ip": {
+        "id": 386,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Brama IP"
+    },
+    "status_ip": {
+        "id": 387,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Status IP"
+    },
+    "allowworkweathertempsett": {
+        "id": 407,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AllowWorkWeatherTempSett"
+    },
+    "allowworkweathertempstate": {
+        "id": 408,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AllowWorkWeatherTempState"
+    },
+    "allowworkweathersettemp": {
+        "id": 409,
+        "type": "WORD",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "AllowWorkWeatherSetTemp"
+    },
+    "systembackgroundcolorcircuit1": {
+        "id": 410,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit1"
+    },
+    "systembackgroundcolorcircuit2": {
+        "id": 411,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit2"
+    },
+    "systembackgroundcolorcircuit3": {
+        "id": 412,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit3"
+    },
+    "systembackgroundcolorcircuit4": {
+        "id": 413,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit4"
+    },
+    "systembackgroundcolorcircuit5": {
+        "id": 414,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit5"
+    },
+    "systembackgroundcolorcwu": {
+        "id": 415,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCWU"
+    },
+    "systembackgroundcolorcircuit6": {
+        "id": 416,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit6"
+    },
+    "systembackgroundcolorcircuit7": {
+        "id": 417,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "SystemBackgroundColorCircuit7"
+    },
+    "circuit2mintimeswitching": {
+        "id": 419,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit2MinTimeSwitching"
+    },
+    "circuit2maxtimeswitching": {
+        "id": 420,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit2MaxTimeSwitching"
+    },
+    "circuit3mintimeswitching": {
+        "id": 421,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit3MinTimeSwitching"
+    },
+    "circuit3maxtimeswitching": {
+        "id": 422,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit3MaxTimeSwitching"
+    },
+    "circuit4mintimeswitching": {
+        "id": 423,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit4MinTimeSwitching"
+    },
+    "circuit4maxtimeswitching": {
+        "id": 424,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit4MaxTimeSwitching"
+    },
+    "circuit5mintimeswitching": {
+        "id": 425,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit5MinTimeSwitching"
+    },
+    "circuit5maxtimeswitching": {
+        "id": 426,
+        "type": "INT",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "Circuit5MaxTimeSwitching"
+    },
+    "weathertempunlockdelta": {
+        "id": 427,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "weatherTempUnlockDelta"
+    },
+    "weathertempenddeltasupp": {
+        "id": 428,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "weatherTempEndDeltaSupp"
+    },
+    "sourcetempatstart": {
+        "id": 430,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "sourceTempAtStart"
+    },
+    "circulationsettings": {
+        "id": 431,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationSettings"
+    },
+    "circulationstate": {
+        "id": 432,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationState"
+    },
+    "circulationtempstart": {
+        "id": 433,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationTemp.Start"
+    },
+    "circulationtimework": {
+        "id": 434,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationTimework"
+    },
+    "circulationtimestop": {
+        "id": 435,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationTimestop"
+    },
+    "circulationhisttemp": {
+        "id": 436,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationHist.Temp."
+    },
+    "circulationharmonogramsettings": {
+        "id": 439,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationHarmonogramSettings"
+    },
+    "circulationsundayam": {
+        "id": 440,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationSundayAM"
+    },
+    "circulationsundaypm": {
+        "id": 441,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationSundayPM"
+    },
+    "circulationmondayam": {
+        "id": 442,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationMondayAM"
+    },
+    "circulationmondaypm": {
+        "id": 443,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationMondayPM"
+    },
+    "circulationtuesdayam": {
+        "id": 444,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationTuesdayAM"
+    },
+    "circulationtuesdaypm": {
+        "id": 445,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationTuesdayPM"
+    },
+    "circulationwednesdayam": {
+        "id": 446,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationWednesdayAM"
+    },
+    "circulationwednesdaypm": {
+        "id": 447,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationWednesdayPM"
+    },
+    "circulationthursdayam": {
+        "id": 448,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationThursdayAM"
+    },
+    "circulationthursdaypm": {
+        "id": 449,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationThursdayPM"
+    },
+    "circulationfridayam": {
+        "id": 450,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationFridayAM"
+    },
+    "circulationfridaypm": {
+        "id": 451,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationFridayPM"
+    },
+    "circulationsaturdayam": {
+        "id": 452,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationSaturdayAM"
+    },
+    "circulationsaturdaypm": {
+        "id": 453,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "CirculationSaturdayPM"
+    },
+    "heatsourcemaintype": {
+        "id": 456,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMainType"
+    },
+    "heatsourceaddtype": {
+        "id": 458,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceAddType"
+    },
+    "heatsourcemainpumpoverruntime": {
+        "id": 461,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMainPumpOverrunTime"
+    },
+    "heatsourcemainpumpsett": {
+        "id": 462,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMainPumpSett"
+    },
+    "heatsourcemainpumpstate": {
+        "id": 463,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMainPumpState"
+    },
+    "heatsourcemainpumpext": {
+        "id": 464,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMainPumpExt"
+    },
+    "heatsourcecontactsett": {
+        "id": 465,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceContactSett"
+    },
+    "heatsourcecontactstate": {
+        "id": 466,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceContactState"
+    },
+    "heatsourcecontactstophyst": {
+        "id": 467,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceContactStopHyst"
+    },
+    "heatsourcecontactstarthyst": {
+        "id": 468,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceContactStartHyst"
+    },
+    "heatsourcecoolingsett": {
+        "id": 469,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceCoolingSett"
+    },
+    "heatsourcecoolingstate": {
+        "id": 470,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceCoolingState"
+    },
+    "heatsourcecoolingmaintemp": {
+        "id": 471,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceCoolingMainTemp"
+    },
+    "heatsourcecoolingaddtemp": {
+        "id": 472,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceCoolingAddTemp"
+    },
+    "heatsourcecoolinghyst": {
+        "id": 473,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceCoolingHyst"
+    },
+    "heatsourcepresettempsett": {
+        "id": 474,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourcePresetTempSett"
+    },
+    "heatsourcepresettempstate": {
+        "id": 475,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourcePresetTempState"
+    },
+    "heatsourcepresettemp": {
+        "id": 476,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourcePresetTemp"
+    },
+    "heatsourceminpresettemp": {
+        "id": 477,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMinPresetTemp"
+    },
+    "heatsourcemaxpresettemp": {
+        "id": 478,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMaxPresetTemp"
+    },
+    "heatsourcecalcpresettemp": {
+        "id": 479,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceCalcPresetTemp"
+    },
+    "heatsourcetype": {
+        "id": 480,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceType"
+    },
+    "heatsourcetempinc": {
+        "id": 481,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceTempInc"
+    },
+    "heatsourceminsupplytemp": {
+        "id": 482,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMinSupplyTemp"
+    },
+    "heatsourceminsupplyhisttemp": {
+        "id": 483,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMinSupplyHistTemp"
+    },
+    "heatsourceminsupplystate": {
+        "id": 484,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMinSupplyState"
+    },
+    "currentsourcework": {
+        "id": 486,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "currentSourceWork"
+    },
+    "heatsourcetempincbuffer": {
+        "id": 487,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceTempIncBuffer"
+    },
+    "detectalarmsettings": {
+        "id": 488,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "detectAlarmSettings"
+    },
+    "detectalarmstate": {
+        "id": 489,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "detectAlarmState"
+    },
+    "heaterpumpdecreasefordhw": {
+        "id": 492,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "heaterPumpDecreaseForDHW"
+    },
+    "counterminwork": {
+        "id": 497,
+        "type": "BYTE",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "counterMinWork"
+    },
+    "minworktime": {
+        "id": 498,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "minWorkTime"
+    },
+    "countminworktime": {
+        "id": 505,
+        "type": "BYTE",
+        "unit": "s",
+        "exponent": 0,
+        "name_orig": "countMinWorkTime"
+    },
+    "heaterpumpdecreaseforbuffer": {
+        "id": 522,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "heaterPumpDecreaseForBuffer"
+    },
+    "mix1pidkp": {
+        "id": 572,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix1PidKp"
+    },
+    "mix2pidkp": {
+        "id": 573,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix2PidKp"
+    },
+    "mix3pidkp": {
+        "id": 574,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix3PidKp"
+    },
+    "mix4pidkp": {
+        "id": 575,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix4PidKp"
+    },
+    "mix5pidkp": {
+        "id": 576,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix5PidKp"
+    },
+    "mix1pidti": {
+        "id": 577,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix1PidTi"
+    },
+    "mix2pidti": {
+        "id": 578,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix2PidTi"
+    },
+    "mix3pidti": {
+        "id": 579,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix3PidTi"
+    },
+    "mix4pidti": {
+        "id": 580,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix4PidTi"
+    },
+    "mix5pidti": {
+        "id": 581,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix5PidTi"
+    },
+    "mix6pidkp": {
+        "id": 582,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix6PidKp"
+    },
+    "mix7pidkp": {
+        "id": 583,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix7PidKp"
+    },
+    "mix6pidti": {
+        "id": 584,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix6PidTi"
+    },
+    "mix7pidti": {
+        "id": 585,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mix7PidTi"
+    },
+    "mixcirc1heatcurvefancoil": {
+        "id": 586,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc1HeatCurveFanCoil"
+    },
+    "mixcirc2heatcurvefancoil": {
+        "id": 587,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc2HeatCurveFanCoil"
+    },
+    "mixcirc3heatcurvefancoil": {
+        "id": 588,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc3HeatCurveFanCoil"
+    },
+    "mixcirc4heatcurvefancoil": {
+        "id": 589,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc4HeatCurveFanCoil"
+    },
+    "mixcirc5heatcurvefancoil": {
+        "id": 590,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc5HeatCurveFanCoil"
+    },
+    "mixcirc6heatcurvefancoil": {
+        "id": 591,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc6HeatCurveFanCoil"
+    },
+    "mixcirc7heatcurvefancoil": {
+        "id": 592,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "MixCirc7HeatCurveFanCoil"
+    },
+    "highcircuittemp": {
+        "id": 715,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HighCircuitTemp"
+    },
+    "dhwsettemp": {
+        "id": 716,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "DHWSetTemp"
+    },
+    "buffersettemp": {
+        "id": 717,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "BufferSetTemp"
+    },
+    "circuit1minsettemp": {
+        "id": 719,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit1MinSetTemp"
+    },
+    "circuit1mixercoolbasetemp": {
+        "id": 739,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit1MixerCoolBaseTemp"
+    },
+    "circuit6settings": {
+        "id": 749,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6Settings"
+    },
+    "circuit6state": {
+        "id": 750,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6State"
+    },
+    "circuit6inputdigitallogic": {
+        "id": 751,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6InputDigitalLogic"
+    },
+    "circuit6pumpdebug": {
+        "id": 752,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6PumpDebug"
+    },
+    "circuit6workstate": {
+        "id": 753,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6WorkState"
+    },
+    "circuit6calctemp": {
+        "id": 754,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6CalcTemp"
+    },
+    "circuit6comforttemp": {
+        "id": 755,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6ComfortTemp"
+    },
+    "circuit6ecotemp": {
+        "id": 756,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6EcoTemp"
+    },
+    "circuit6downhist": {
+        "id": 757,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6DownHist"
+    },
+    "circuit6minsettemprad": {
+        "id": 758,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MinSetTempRad"
+    },
+    "circuit6maxsettemprad": {
+        "id": 759,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MaxSetTempRad"
+    },
+    "circuit6maxtempheat": {
+        "id": 760,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MaxTempHeat"
+    },
+    "circuit6maxtempheathist": {
+        "id": 761,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MaxTempHeatHist"
+    },
+    "circuit6thermostataddress": {
+        "id": 762,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6ThermostatAddress"
+    },
+    "circuit6basetemp": {
+        "id": 783,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6BaseTemp"
+    },
+    "circuit6tempreduction": {
+        "id": 764,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6TempReduction"
+    },
+    "circuit6multiplier": {
+        "id": 765,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6Multiplier"
+    },
+    "circuit6mixerstate": {
+        "id": 766,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MixerState"
+    },
+    "mixer6valveposition": {
+        "id": 767,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer6valveposition"
+    },
+    "mixer6valveopeningtime": {
+        "id": 768,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer6valveopeningtime"
+    },
+    "mixer6valvedeadzone": {
+        "id": 769,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer6valvedeadzone"
+    },
+    "circuit6name": {
+        "id": 780,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6name"
+    },
+    "circuit6active": {
+        "id": 781,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6active"
+    },
+    "circuit6usercor": {
+        "id": 782,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6userCor"
+    },
+    "circuit6mixercoolbasetemp": {
+        "id": 784,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit6MixerCoolBaseTemp"
+    },
+    "circuit2minsetpointcooling": {
+        "id": 787,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit2MinSetPointCooling"
+    },
+    "circuit2maxsetpointcooling": {
+        "id": 788,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit2MaxSetPointCooling"
+    },
+    "circuit2mixercoolbasetemp": {
+        "id": 789,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit2MixerCoolBaseTemp"
+    },
+    "circuit7settings": {
+        "id": 799,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7Settings"
+    },
+    "circuit7state": {
+        "id": 800,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7State"
+    },
+    "circuit7inputdigitallogic": {
+        "id": 801,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7InputDigitalLogic"
+    },
+    "circuit7pumpdebug": {
+        "id": 802,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7PumpDebug"
+    },
+    "circuit7workstate": {
+        "id": 803,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7WorkState"
+    },
+    "circuit7calctemp": {
+        "id": 804,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7CalcTemp"
+    },
+    "circuit7comforttemp": {
+        "id": 805,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7ComfortTemp"
+    },
+    "circuit7ecotemp": {
+        "id": 806,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7EcoTemp"
+    },
+    "circuit7downhist": {
+        "id": 807,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7DownHist"
+    },
+    "circuit7minsettemprad": {
+        "id": 808,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MinSetTempRad"
+    },
+    "circuit7maxsettemprad": {
+        "id": 809,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MaxSetTempRad"
+    },
+    "circuit7maxtempheat": {
+        "id": 810,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MaxTempHeat"
+    },
+    "circuit7maxtempheathist": {
+        "id": 811,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MaxTempHeatHist"
+    },
+    "circuit7thermostataddress": {
+        "id": 812,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7ThermostatAddress"
+    },
+    "circuit7basetemp": {
+        "id": 833,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7BaseTemp"
+    },
+    "circuit7tempreduction": {
+        "id": 814,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7TempReduction"
+    },
+    "circuit7multiplier": {
+        "id": 815,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7Multiplier"
+    },
+    "circuit7mixerstate": {
+        "id": 816,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MixerState"
+    },
+    "mixer7valveposition": {
+        "id": 817,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer7valveposition"
+    },
+    "mixer7valveopeningtime": {
+        "id": 818,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer7valveopeningtime"
+    },
+    "mixer7valvedeadzone": {
+        "id": 819,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer7valvedeadzone"
+    },
+    "mixer7valvesetposition": {
+        "id": 820,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer7valvesetposition"
+    },
+    "circuit7typesettings": {
+        "id": 821,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7TypeSettings"
+    },
+    "circuit7thermostatsettings": {
+        "id": 822,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7ThermostatSettings"
+    },
+    "circuit7minsettempfloor": {
+        "id": 823,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MinSetTempFloor"
+    },
+    "circuit7maxsettempfloor": {
+        "id": 824,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MaxSetTempFloor"
+    },
+    "circuit7curveradiator": {
+        "id": 825,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7CurveRadiator"
+    },
+    "circuit7curvefloor": {
+        "id": 826,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7CurveFloor"
+    },
+    "circuit7curveshift": {
+        "id": 827,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7Curveshift"
+    },
+    "circuit7longloading": {
+        "id": 828,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7longloading"
+    },
+    "circuit7thermostattemp": {
+        "id": 829,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7thermostatTemp"
+    },
+    "circuit7name": {
+        "id": 830,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7name"
+    },
+    "circuit7active": {
+        "id": 831,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7active"
+    },
+    "circuit7usercor": {
+        "id": 832,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7userCor"
+    },
+    "circuit7mixercoolbasetemp": {
+        "id": 834,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit7MixerCoolBaseTemp"
+    },
+    "circuit3minsetpointcooling": {
+        "id": 837,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit3MinSetPointCooling"
+    },
+    "circuit3maxsetpointcooling": {
+        "id": 838,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit3MaxSetPointCooling"
+    },
+    "circuit3mixercoolbasetemp": {
+        "id": 839,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit3MixerCoolBaseTemp"
+    },
+    "circuit7sundayam": {
+        "id": 845,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7SundayAM"
+    },
+    "circuit7sundaypm": {
+        "id": 846,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7SundayPM"
+    },
+    "circuit7mondayam": {
+        "id": 847,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MondayAM"
+    },
+    "circuit7mondaypm": {
+        "id": 848,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7MondayPM"
+    },
+    "circuit7tuesdayam": {
+        "id": 849,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7TuesdayAM"
+    },
+    "circuit7tuesdaypm": {
+        "id": 850,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7TuesdayPM"
+    },
+    "circuit7wednesdayam": {
+        "id": 851,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7WednesdayAM"
+    },
+    "circuit7wednesdaypm": {
+        "id": 852,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7WednesdayPM"
+    },
+    "circuit7thursdayam": {
+        "id": 853,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7ThursdayAM"
+    },
+    "circuit7thursdaypm": {
+        "id": 854,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7ThursdayPM"
+    },
+    "circuit7fridayam": {
+        "id": 855,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7FridayAM"
+    },
+    "circuit7fridaypm": {
+        "id": 856,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7FridayPM"
+    },
+    "circuit7saturdayam": {
+        "id": 857,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7SaturdayAM"
+    },
+    "circuit7saturdaypm": {
+        "id": 858,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit7SaturdayPM"
+    },
+    "szyfwifi": {
+        "id": 859,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "szyfWifi"
+    },
+    "ipwifi": {
+        "id": 860,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "ipWifi"
+    },
+    "mwifi": {
+        "id": 861,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "mwifi"
+    },
+    "gwifi": {
+        "id": 862,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "gwifi"
+    },
+    "iplan": {
+        "id": 863,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "iplan"
+    },
+    "circuit6sundayam": {
+        "id": 867,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6SundayAM"
+    },
+    "circuit6sundaypm": {
+        "id": 868,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6SundayPM"
+    },
+    "circuit6mondayam": {
+        "id": 869,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MondayAM"
+    },
+    "circuit6mondaypm": {
+        "id": 870,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6MondayPM"
+    },
+    "circuit6tuesdayam": {
+        "id": 871,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6TuesdayAM"
+    },
+    "circuit6tuesdaypm": {
+        "id": 872,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6TuesdayPM"
+    },
+    "circuit6wednesdayam": {
+        "id": 873,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6WednesdayAM"
+    },
+    "circuit6wednesdaypm": {
+        "id": 874,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6WednesdayPM"
+    },
+    "circuit6thursdayam": {
+        "id": 875,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6ThursdayAM"
+    },
+    "circuit6thursdaypm": {
+        "id": 876,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6ThursdayPM"
+    },
+    "circuit6fridayam": {
+        "id": 877,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6FridayAM"
+    },
+    "circuit6fridaypm": {
+        "id": 878,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6FridayPM"
+    },
+    "circuit6saturdayam": {
+        "id": 879,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6SaturdayAM"
+    },
+    "circuit6saturdaypm": {
+        "id": 880,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit6SaturdayPM"
+    },
+    "circuit3sundayam": {
+        "id": 881,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3SundayAM"
+    },
+    "circuit3sundaypm": {
+        "id": 882,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3SundayPM"
+    },
+    "circuit3mondayam": {
+        "id": 883,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MondayAM"
+    },
+    "circuit3mondaypm": {
+        "id": 884,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3MondayPM"
+    },
+    "circuit3tuesdayam": {
+        "id": 885,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3TuesdayAM"
+    },
+    "circuit3tuesdaypm": {
+        "id": 886,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3TuesdayPM"
+    },
+    "circuit3wednesdayam": {
+        "id": 887,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3WednesdayAM"
+    },
+    "circuit3wednesdaypm": {
+        "id": 888,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3WednesdayPM"
+    },
+    "circuit3thursdayam": {
+        "id": 889,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3ThursdayAM"
+    },
+    "circuit3thursdaypm": {
+        "id": 890,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3ThursdayPM"
+    },
+    "circuit3fridayam": {
+        "id": 891,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3FridayAM"
+    },
+    "circuit3fridaypm": {
+        "id": 892,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3FridayPM"
+    },
+    "circuit3saturdayam": {
+        "id": 893,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3SaturdayAM"
+    },
+    "circuit3saturdaypm": {
+        "id": 894,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3SaturdayPM"
+    },
+    "circuit3curveradiator": {
+        "id": 895,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3CurveRadiator"
+    },
+    "circuit3curvefloor": {
+        "id": 896,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3CurveFloor"
+    },
+    "circuit3curveshift": {
+        "id": 897,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3Curveshift"
+    },
+    "circuit3longloading": {
+        "id": 898,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3longloading"
+    },
+    "circuit3thermostattemp": {
+        "id": 899,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3thermostatTemp"
+    },
+    "circuit3name": {
+        "id": 900,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3name"
+    },
+    "circuit3active": {
+        "id": 901,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3active"
+    },
+    "circuit3usercor": {
+        "id": 902,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit3userCor"
+    },
+    "circuit1minsetpointcooling": {
+        "id": 903,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit1MinSetPointCooling"
+    },
+    "circuit1maxsetpointcooling": {
+        "id": 904,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit1MaxSetPointCooling"
+    },
+    "circuit4minsetpointcooling": {
+        "id": 905,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit4MinSetPointCooling"
+    },
+    "circuit4maxsetpointcooling": {
+        "id": 906,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit4MaxSetPointCooling"
+    },
+    "circuit5minsetpointcooling": {
+        "id": 907,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit5MinSetPointCooling"
+    },
+    "circuit5maxsetpointcooling": {
+        "id": 908,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit5MaxSetPointCooling"
+    },
+    "circuit6minsetpointcooling": {
+        "id": 909,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit6MinSetPointCooling"
+    },
+    "circuit6maxsetpointcooling": {
+        "id": 910,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit6MaxSetPointCooling"
+    },
+    "circuit7minsetpointcooling": {
+        "id": 911,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit7MinSetPointCooling"
+    },
+    "circuit7maxsetpointcooling": {
+        "id": 912,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit7MaxSetPointCooling"
+    },
+    "boilerpower": {
+        "id": 916,
+        "type": "FLOAT",
+        "unit": "kW",
+        "exponent": 0,
+        "name_orig": "boilerPower"
+    },
+    "worktime": {
+        "id": 924,
+        "type": "LONG_INT",
+        "unit": "sec",
+        "exponent": 0,
+        "name_orig": "workTime"
+    },
+    "periodicworktime": {
+        "id": 925,
+        "type": "LONG_INT",
+        "unit": "sec",
+        "exponent": 0,
+        "name_orig": "periodicWorkTime"
+    },
+    "heatsourcesundayam": {
+        "id": 926,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceSundayAM"
+    },
+    "heatsourcesundaypm": {
+        "id": 927,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceSundayPM"
+    },
+    "heatsourcemondayam": {
+        "id": 928,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMondayAM"
+    },
+    "heatsourcemondaypm": {
+        "id": 929,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceMondayPM"
+    },
+    "heatsourcetuesdayam": {
+        "id": 930,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceTuesdayAM"
+    },
+    "heatsourcetuesdaypm": {
+        "id": 931,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceTuesdayPM"
+    },
+    "heatsourcewednesdayam": {
+        "id": 932,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceWednesdayAM"
+    },
+    "heatsourcewednesdaypm": {
+        "id": 933,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceWednesdayPM"
+    },
+    "heatsourcethursdayam": {
+        "id": 934,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceThursdayAM"
+    },
+    "heatsourcethursdaypm": {
+        "id": 935,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceThursdayPM"
+    },
+    "heatsourcefridayam": {
+        "id": 936,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceFridayAM"
+    },
+    "heatsourcefridaypm": {
+        "id": 937,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceFridayPM"
+    },
+    "heatsourcesaturdayam": {
+        "id": 938,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceSaturdayAM"
+    },
+    "heatsourcesaturdaypm": {
+        "id": 939,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "HeatSourceSaturdayPM"
+    },
+    "circuit4settings": {
+        "id": 940,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4Settings"
+    },
+    "circuit4state": {
+        "id": 941,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4State"
+    },
+    "circuit4inputdigitallogic": {
+        "id": 942,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4InputDigitalLogic"
+    },
+    "circuit4pumpdebug": {
+        "id": 943,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4PumpDebug"
+    },
+    "circuit4workstate": {
+        "id": 944,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4WorkState"
+    },
+    "circuit4calctemp": {
+        "id": 945,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4CalcTemp"
+    },
+    "circuit4comforttemp": {
+        "id": 946,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4ComfortTemp"
+    },
+    "circuit4ecotemp": {
+        "id": 947,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4EcoTemp"
+    },
+    "circuit4downhist": {
+        "id": 948,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4DownHist"
+    },
+    "circuit4minsettemprad": {
+        "id": 949,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MinSetTempRad"
+    },
+    "circuit4maxsettemprad": {
+        "id": 950,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MaxSetTempRad"
+    },
+    "circuit4maxtempheat": {
+        "id": 951,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MaxTempHeat"
+    },
+    "circuit4maxtempheathist": {
+        "id": 952,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MaxTempHeatHist"
+    },
+    "circuit4thermostataddress": {
+        "id": 953,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4ThermostatAddress"
+    },
+    "circuit4sundayam": {
+        "id": 955,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4SundayAM"
+    },
+    "circuit4sundaypm": {
+        "id": 956,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4SundayPM"
+    },
+    "circuit4mondayam": {
+        "id": 957,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MondayAM"
+    },
+    "circuit4mondaypm": {
+        "id": 958,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MondayPM"
+    },
+    "circuit4tuesdayam": {
+        "id": 959,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4TuesdayAM"
+    },
+    "circuit4tuesdaypm": {
+        "id": 960,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4TuesdayPM"
+    },
+    "circuit4wednesdayam": {
+        "id": 961,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4WednesdayAM"
+    },
+    "circuit4wednesdaypm": {
+        "id": 962,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4WednesdayPM"
+    },
+    "circuit4thursdayam": {
+        "id": 963,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4ThursdayAM"
+    },
+    "circuit4thursdaypm": {
+        "id": 964,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4ThursdayPM"
+    },
+    "circuit4fridayam": {
+        "id": 965,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4FridayAM"
+    },
+    "circuit4fridaypm": {
+        "id": 966,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4FridayPM"
+    },
+    "circuit4saturdayam": {
+        "id": 967,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4SaturdayAM"
+    },
+    "circuit4saturdaypm": {
+        "id": 968,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4SaturdayPM"
+    },
+    "circuit4basetemp": {
+        "id": 989,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4BaseTemp"
+    },
+    "circuit4tempreduction": {
+        "id": 970,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4TempReduction"
+    },
+    "circuit4multiplier": {
+        "id": 971,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4Multiplier"
+    },
+    "circuit4mixerstate": {
+        "id": 972,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MixerState"
+    },
+    "mixer4valveposition": {
+        "id": 973,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer4valveposition"
+    },
+    "mixer4valveopeningtime": {
+        "id": 974,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer4valveopeningtime"
+    },
+    "mixer4valvedeadzone": {
+        "id": 975,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer4valvedeadzone"
+    },
+    "mixer4valvesetposition": {
+        "id": 976,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer4valvesetposition"
+    },
+    "circuit4typesettings": {
+        "id": 977,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4TypeSettings"
+    },
+    "circuit4thermostatsettings": {
+        "id": 978,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4ThermostatSettings"
+    },
+    "circuit4minsettempfloor": {
+        "id": 979,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MinSetTempFloor"
+    },
+    "circuit4maxsettempfloor": {
+        "id": 980,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4MaxSetTempFloor"
+    },
+    "circuit4curveradiator": {
+        "id": 981,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4CurveRadiator"
+    },
+    "circuit4curvefloor": {
+        "id": 982,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4CurveFloor"
+    },
+    "circuit4curveshift": {
+        "id": 983,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4Curveshift"
+    },
+    "circuit4longloading": {
+        "id": 984,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4longloading"
+    },
+    "circuit4thermostattemp": {
+        "id": 985,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4thermostatTemp"
+    },
+    "circuit4name": {
+        "id": 986,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4name"
+    },
+    "circuit4active": {
+        "id": 987,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4active"
+    },
+    "circuit4usercor": {
+        "id": 988,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit4userCor"
+    },
+    "circuit4mixercoolbasetemp": {
+        "id": 990,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit4MixerCoolBaseTemp"
+    },
+    "circuit5settings": {
+        "id": 991,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5Settings"
+    },
+    "circuit5state": {
+        "id": 992,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5State"
+    },
+    "circuit5inputdigitallogic": {
+        "id": 993,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5InputDigitalLogic"
+    },
+    "circuit5pumpdebug": {
+        "id": 994,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5PumpDebug"
+    },
+    "circuit5workstate": {
+        "id": 995,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5WorkState"
+    },
+    "circuit5calctemp": {
+        "id": 996,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5CalcTemp"
+    },
+    "circuit5comforttemp": {
+        "id": 997,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5ComfortTemp"
+    },
+    "circuit5ecotemp": {
+        "id": 998,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5EcoTemp"
+    },
+    "circuit5downhist": {
+        "id": 999,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5DownHist"
+    },
+    "circuit5minsettemprad": {
+        "id": 1000,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MinSetTempRad"
+    },
+    "circuit5maxsettemprad": {
+        "id": 1001,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MaxSetTempRad"
+    },
+    "circuit5maxtempheat": {
+        "id": 1002,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MaxTempHeat"
+    },
+    "circuit5maxtempheathist": {
+        "id": 1003,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MaxTempHeatHist"
+    },
+    "circuit5thermostataddress": {
+        "id": 1004,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5ThermostatAddress"
+    },
+    "circuit5sundayam": {
+        "id": 1006,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5SundayAM"
+    },
+    "circuit5sundaypm": {
+        "id": 1007,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5SundayPM"
+    },
+    "circuit5mondayam": {
+        "id": 1008,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MondayAM"
+    },
+    "circuit5mondaypm": {
+        "id": 1009,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MondayPM"
+    },
+    "circuit5tuesdayam": {
+        "id": 1010,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5TuesdayAM"
+    },
+    "circuit5tuesdaypm": {
+        "id": 1011,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5TuesdayPM"
+    },
+    "circuit5wednesdayam": {
+        "id": 1012,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5WednesdayAM"
+    },
+    "circuit5wednesdaypm": {
+        "id": 1013,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5WednesdayPM"
+    },
+    "circuit5thursdayam": {
+        "id": 1014,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5ThursdayAM"
+    },
+    "circuit5thursdaypm": {
+        "id": 1015,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5ThursdayPM"
+    },
+    "circuit5fridayam": {
+        "id": 1016,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5FridayAM"
+    },
+    "circuit5fridaypm": {
+        "id": 1017,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5FridayPM"
+    },
+    "circuit5saturdayam": {
+        "id": 1018,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5SaturdayAM"
+    },
+    "circuit5saturdaypm": {
+        "id": 1019,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5SaturdayPM"
+    },
+    "circuit5basetemp": {
+        "id": 1040,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5BaseTemp"
+    },
+    "circuit5tempreduction": {
+        "id": 1021,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5TempReduction"
+    },
+    "circuit5multiplier": {
+        "id": 1022,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5Multiplier"
+    },
+    "circuit5mixerstate": {
+        "id": 1023,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MixerState"
+    },
+    "mixer5valveposition": {
+        "id": 1024,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer5valveposition"
+    },
+    "mixer5valveopeningtime": {
+        "id": 1025,
+        "type": "INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer5valveopeningtime"
+    },
+    "mixer5valvedeadzone": {
+        "id": 1026,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer5valvedeadzone"
+    },
+    "mixer5valvesetposition": {
+        "id": 1027,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Mixer5valvesetposition"
+    },
+    "circuit5typesettings": {
+        "id": 1028,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5TypeSettings"
+    },
+    "circuit5thermostatsettings": {
+        "id": 1029,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5ThermostatSettings"
+    },
+    "circuit5minsettempfloor": {
+        "id": 1030,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MinSetTempFloor"
+    },
+    "circuit5maxsettempfloor": {
+        "id": 1031,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5MaxSetTempFloor"
+    },
+    "circuit5curveradiator": {
+        "id": 1032,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5CurveRadiator"
+    },
+    "circuit5curvefloor": {
+        "id": 1033,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5CurveFloor"
+    },
+    "circuit5curveshift": {
+        "id": 1034,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5Curveshift"
+    },
+    "circuit5longloading": {
+        "id": 1035,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5longloading"
+    },
+    "circuit5thermostattemp": {
+        "id": 1036,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5thermostatTemp"
+    },
+    "circuit5name": {
+        "id": 1037,
+        "type": "RAW",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5name"
+    },
+    "circuit5active": {
+        "id": 1038,
+        "type": "SHORT_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5active"
+    },
+    "circuit5usercor": {
+        "id": 1039,
+        "type": "WORD",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "Circuit5userCor"
+    },
+    "circuit5mixercoolbasetemp": {
+        "id": 1041,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "Circuit5MixerCoolBaseTemp"
+    },
+    "alarmbits_1": {
+        "id": 1042,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AlarmBits 1"
+    },
+    "alarmbits_2": {
+        "id": 1043,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AlarmBits 2"
+    },
+    "alarmbits_3": {
+        "id": 1044,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AlarmBits 3"
+    },
+    "alarmbits_4": {
+        "id": 1045,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AlarmBits 4"
+    },
+    "alarmbits_5": {
+        "id": 1046,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "AlarmBits 5"
+    },
+    "decreasesettemp": {
+        "id": 1047,
+        "type": "SHORT_INT",
+        "unit": "C",
+        "exponent": 0,
+        "name_orig": "decreaseSetTemp"
+    },
+    "analog_boiler_control_settings": {
+        "id": 1054,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "analog boiler control settings"
+    },
+    "analog_boiler_control_state": {
+        "id": 1055,
+        "type": "LONG_INT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "analog boiler control state"
+    },
+    "analog_boiler_control_control": {
+        "id": 1056,
+        "type": "FLOAT",
+        "unit": "",
+        "exponent": 0,
+        "name_orig": "analog boiler control control"
+    }
+}
