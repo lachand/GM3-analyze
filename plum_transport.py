@@ -7,7 +7,18 @@ from plum_protocol import BoilerFrame, START_BYTE, STOP_BYTE, compute_crc16
 logger = logging.getLogger(__name__)
 
 class AsyncPlumTransport:
+    """
+    @class AsyncPlumTransport
+    @brief Persistent asynchronous TCP transport handler.
+    @details Unlike `PlumDevice` which opens/closes the socket per request,
+    this class maintains an open connection (suitable for streaming/monitoring).
+    """
     def __init__(self, host: str, port: int):
+        """
+        @brief Initializes the transport.
+        @param host IP address of the host.
+        @param port TCP port.
+        """
         self.host = host
         self.port = port
         self.reader: Optional[asyncio.StreamReader] = None
@@ -15,15 +26,27 @@ class AsyncPlumTransport:
         self._buffer = bytearray()
 
     async def connect(self):
+        """
+        @brief Establishes the asynchronous TCP connection.
+        @throws ConnectionRefusedError if server is unreachable.
+        """
         logger.debug(f"Connecting to {self.host}:{self.port}")
         self.reader, self.writer = await asyncio.open_connection(self.host, self.port)
 
     async def close(self):
+        """
+        @brief Cleanly closes the writer and waits for socket closure.
+        """
         if self.writer:
             self.writer.close()
             await self.writer.wait_closed()
 
     async def send_frame(self, frame: BoilerFrame):
+        """
+        @brief Sends a BoilerFrame over the stream.
+        @param frame The frame object to send.
+        @throws ConnectionError If not connected.
+        """
         if not self.writer:
             raise ConnectionError("Not connected")
 
@@ -37,7 +60,14 @@ class AsyncPlumTransport:
         await self.writer.drain()
 
     async def read_frame(self, timeout: float = 2.0) -> Optional[BoilerFrame]:
-        """Lit le flux jusqu'à obtenir une trame valide."""
+        """
+        @brief Reads the incoming stream until a valid frame is obtained.
+        @details Implements a sliding buffer to assemble TCP fragments.
+        Validates Start Byte, Length, and CRC.
+        
+        @param timeout Max wait time in seconds.
+        @return BoilerFrame if a valid frame is found, None otherwise (timeout/error).
+        """
         if not self.reader:
             raise ConnectionError("Not connected")
 
